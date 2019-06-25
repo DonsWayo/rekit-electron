@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
-import { matchPath } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { TitleBar } from './';
 import { getMainState } from './redux/actions';
@@ -31,10 +30,6 @@ export class App extends Component {
   }
 
   render() {
-    const match = matchPath(this.props.router.location.pathname, {
-      path: '/rekit-studio/:port',
-      exact: true,
-    });
     return (
       <div className="home-app">
         <TitleBar />
