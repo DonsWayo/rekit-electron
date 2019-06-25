@@ -49,6 +49,7 @@
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "node scripts/start.js",
     "start-electron": "cross-env NODE_ENV=development electron .",
+    "dev": "npm run start & npm run start-electron",
     "start-electron-dist": "cross-env NODE_ENV=production electron ./",
     "build-static": "node ./scripts/buildStatic.js",
     "pack": "electron-builder --dir",
