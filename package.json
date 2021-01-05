@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/traverse": "^7.4.5",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-generator": "^6.23.0",
     "babel-traverse": "^6.23.1",
     "babel-types": "^6.23.0",
