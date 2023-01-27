@@ -37,7 +37,7 @@
     "rekit-core": "^3.0.0-beta.32",
     "rekit-studio": "^3.0.0-beta.32",
     "shelljs": "^0.8.0",
-    "simple-git": "^1.116.0",
+    "simple-git": "^3.16.0",
     "source-map-explorer": "^1.6.0",
     "terminate": "^2.1.2",
     "universal-analytics": "^0.4.20",
